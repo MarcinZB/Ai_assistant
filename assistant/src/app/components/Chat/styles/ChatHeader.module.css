@@ -1,0 +1,17 @@
+.header {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+}
+.avatarai {
+  border-radius: 50%;
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  width: 7vh;
+  height: 7vh;
+}

@@ -1,0 +1,26 @@
+.message {
+  display: flex;
+  max-width: 70%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.botMessage {
+  max-width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(48, 52, 57, 0.7);
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  color: white;
+  align-self: flex-start;
+}
+
+.userMessage {
+  display: flex;
+  background-color: rgb(152, 153, 154, 0.7);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  align-self: flex-end;
+}
